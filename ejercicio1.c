@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     int a;
     int b;
 printf("introduce el primer números\n");
-scanf("%d",&a);
+scanf("%i",&a);
 printf("introduce el segundo números\n");
-scanf("%d",&b);
+scanf("%i",&b);
 {
     if(a<b)
     {
@@ -18,6 +18,4 @@ scanf("%d",&b);
         printf("el primer valor es mayor");
     }
 }
-
-    return 0;
 }
