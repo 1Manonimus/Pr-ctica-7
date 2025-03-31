@@ -11,16 +11,16 @@ int main()
     
  
     printf ("escoje una opción;\n");
-    printf ("1- SUMA \n");
-    printf ("2- RESTA \n");
-    printf ("3- MULTIPLICACIÓN \n");
-    printf ("4- DIVISIÓN\n");
-    printf ("5- EXPONENCIAL\n");
-    printf ("6- RAIZ\n");
-    printf ("7- SALIR\n");
+    printf ("1- suma \n");
+    printf ("2- resta \n");
+    printf ("3- multiplicación \n");
+    printf ("4- división\n");
+    printf ("5- exponencial\n");
+    printf ("6- raíz\n");
+    printf ("7- salir\n");
 scanf("%d",&n);
-{
-if(n !=7)
+
+while(n !=7)
 {
 switch(n)
     {
@@ -72,17 +72,18 @@ switch(n)
         default:
     printf ("no escogiste una operacción valida;\n");
     }
-}
+
     printf ("escoje una opción;\n");
-    printf ("1- SUMA \n");
-    printf ("2- RESTA \n");
-    printf ("3- MULTIPLICACIÓN \n");
-    printf ("4- DIVISIÓN\n");
-    printf ("5- EXPONENCIAL\n");
-    printf ("6- RAIZ\n");
-    printf ("7- SALIR\n");
+    printf ("1- suma \n");
+    printf ("2- resta \n");
+    printf ("3- multiplicación \n");
+    printf ("4- disión\n");
+    printf ("5- exponencial\n");
+    printf ("6- raiz\n");
+    printf ("7- salir\n");
 scanf("%d",&n);
 }
+
 
 printf("saliste");
 
